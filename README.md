@@ -29,10 +29,10 @@ Additional data may be added in the future.
 ## Citation
 If you use our data or prompts in your research, please cite our paper:
 ```text
-@article{hu2024exploiting,
-  title={Exploiting ChatGPT for Diagnosing Autism-Associated Language Disorders and Identifying Distinct Features},
-  author={Hu, Chuanbo and Li, Wenqi and Ruan, Mindi and Yu, Xiangxu and Paul, Lynn K and Wang, Shuo and Li, Xin},
-  journal={arXiv preprint arXiv:2405.01799},
+@article{hu2024exploring,
+  title={Exploring speech pattern disorders in autism using machine learning},
+  author={Hu, Chuanbo and Thrasher, Jacob and Li, Wenqi and Ruan, Mindi and Yu, Xiangxu and Paul, Lynn K and Wang, Shuo and Li, Xin},
+  journal={arXiv preprint arXiv:2405.05126},
   year={2024}
 }
 ```
