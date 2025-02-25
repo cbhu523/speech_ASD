@@ -1,20 +1,15 @@
-# Exploiting ChatGPT for Diagnosing Autism-Associated Language Disorders and Identifying Distinct Features
-
+# Exploring Speech Pattern Disorders in Autism using Machine Learning
+ 
 This repository contains the datasets, prompts, and supplementary materials for the paper:  
-**"Exploiting ChatGPT for Diagnosing Autism-Associated Language Disorders and Identifying Distinct Features"**  
-by **Chuanbo Hu, Wenqi Li, Mindi Ruan, Xiangxu Yu, Lynn K. Paul, Shuo Wang, and Xin Li**.
+**"Exploring Speech Pattern Disorders in Autism using Machine Learning"**  
+by **Chuanbo Hu, Jacob Thrasher, Wenqi Li, Mindi Ruan, Xiangxu Yu, Lynn K. Paul, Shuo Wang, and Xin Li**.
 
 ---
 
 ## Abstract
 
-Diagnosing language disorders associated with autism is a complex challenge, often hampered by the subjective nature and variability of traditional assessment methods. Traditional diagnostic methods not only require intensive human effort but also often result in delayed interventions due to their lack of speed and precision. In this study, we explored the application of ChatGPT, a state-of-the-art large language model, to overcome these obstacles by enhancing sensitivity and profiling linguistic features for autism diagnosis. This research utilizes ChatGPT's natural language processing capabilities to simplify and improve the diagnostic process, focusing on identifying autism-related language patterns. Specifically, we compared ChatGPT's performance with that of conventional supervised learning models, including BERT, a model acclaimed for its effectiveness in various natural language processing tasks. We showed that ChatGPT substantially outperformed these models, achieving over 10% improvement in both sensitivity and positive predictive value, in a zero-shot learning configuration. The findings underscore the model’s potential as a superior diagnostic tool, combining accuracy and applicability. We identified ten key features of autism-associated language disorders across scenarios. Features such as echolalia, pronoun reversal, and atypical language usage play a critical role in diagnosing ASD and informing tailored treatment plans. Together, our findings advocate for adopting sophisticated AI tools like ChatGPT in clinical settings to assess and diagnose developmental disorders. Our approach promises enhanced diagnostic precision and supports personalized medicine, potentially transforming the evaluation landscape for autism and similar neurological conditions.
+Diagnosing Autism Spectrum Disorder (ASD) based on speech patterns in examiner-patient dialogues presents significant challenges due to the subtle and varied nature of speech-related symptoms. This study analyzes recorded dialogues using the Autism Diagnostic Observation Schedule (ADOS-2) to identify distinctive speech characteristics. We extracted 40 speech-related features, categorized into intonation, volume, rate, pauses, spectral characteristics, chroma, and duration. These features, analyzed using advanced speech tools, captured complex speech patterns associated with ASD. Machine learning techniques were then applied to classify individuals with ASD, achieving an f1-score of 84.49%. We removed MFCC and Chroma features to focus on prosodic, rhythmic, energy, and selected spectral features associated with the ADOS-2 Module 4 A2 score (i.e., speech abnormalities) to reduce redundancy and balance feature importance. This reduced feature set improved performance, with an accuracy of 85.77% and an F1-score of 86.27%, highlighting the effectiveness of a diverse combination of non-spectral features in ASD diagnosis. While spectral features (e.g., Spectral Centroid, Flux, Rolloff)  emerged as key features in the reduced feature set, MFCC 6 and Chroma 4 significantly contributed to classification performance in the full feature set, indicating their role in capturing fine-grained speech variations. Together, these findings support the development of advanced, context-aware models to enhance ASD diagnosis.
 
----
-
-## Framework
-
-![Framework for Diagnosing Autism and Identifying Language Disorders](./images/framework.jpg)
 ---
 
 ## Dataset
@@ -23,11 +18,13 @@ The sample features extracted from the dataset are available for download at the
 [Download Dataset](https://drive.google.com/file/d/10KCjexmi30uL46elPi9TaxqClwBKNCih/view?usp=sharing)
 
 Additional data may be added in the future.  
+
 ---
 
 ## Speech-to-Text Samples
 
 [Download Dataset](https://drive.google.com/file/d/194Oh-6jr-8Wbb9qUCt2HieMeUV8Pwwuu/view)
+
 
 ## Citation
 If you use our data or prompts in your research, please cite our paper:
