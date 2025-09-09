@@ -21,10 +21,6 @@ Additional data may be added in the future.
 
 ---
 
-## Speech-to-Text Samples
-
-[Download Dataset](https://drive.google.com/file/d/194Oh-6jr-8Wbb9qUCt2HieMeUV8Pwwuu/view)
-
 
 ## Citation
 If you use our data or prompts in your research, please cite our paper:
